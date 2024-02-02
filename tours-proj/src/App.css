@@ -1,0 +1,93 @@
+body{
+  background-color: #f1f5f8;
+}
+
+.container{
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.loading{
+  position:absolute;
+  margin: 200px;
+  right: 500px;
+}
+
+.boxy{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+header{
+  font-weight:bold;
+  color:#32465b;
+  font-size: 45px;
+}
+
+.line{
+  height: 5px;
+  width: 100px;
+  background-color: #6fadd7;
+}
+
+.tourComp{
+  width: 700px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  margin: 30px;
+}
+
+img{
+  max-width: 100%;
+}
+
+.imgDiv{
+  width: fit-content;
+  height: 360px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lineOne{
+  display: flex;
+  position: relative;
+  width: 80%;
+  height: 62.2px;
+}
+
+.title{
+  position: absolute;
+  left: 0;
+  height: 100%;
+}
+
+.price{
+  position: absolute;
+  right: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.emptyTours{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.headerNoTours{
+  margin: 30px;
+}
+
